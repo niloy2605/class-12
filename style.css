@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}   
+ul{
+     list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.root{
+    --primary-color: #0f2f44;
+
+}
+
+.continer{
+     width: 1170px;
+     margin:  auto;
+}
+
+/* header */
+header{
+    background-color:#0f2f44;
+    color: white;
+    
+}
+header span{
+     padding: 19px 0;
+     display: inline-block;
+     line-height: 0;
+}
+header .row{
+    justify-content: space-between;
+}
+/* header end */
+
+/* nav start */
+
+nav .row{
+    align-items: center;
+    justify-content: space-between;
+    
+}
+nav ul li{
+    display: inline-block;
+   
+    
+}
+nav ul li a{
+    padding: 40px 20px;
+    display: inline-block;
+    color: #222222;
+    font-size: 16px;
+    text-transform:capitalize;
+    font-weight: 500px;
+    
+}
+nav ul li a:hover{
+    color: #ffd141 ;
+}
+nav li button{
+   margin: 0 10px;
+   width: 30px;
+   height: 30px;
+   border:  1px solid#e1e1e1;
+   background-color: transparent;
+   color: #999999;
+   border-radius:50%;
+   text-align: center;
+   line-height: 30px;
+   cursor: pointer;
+}
+
+nav .active{
+    background-color: #fff9e6;
+    color: #ffd141;
+}
+/* nav end */
+
+/* banner */
+#banner{
+    background-image: url(image/banner.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+#banner .banner-contian{
+    width: 470px;
+}
+#banner .row{
+    align-items: center;
+    height: 600px;
+    /* background-color: rgba(15, 47, 68, 0.8); */
+}
+#banner .banner-contian h4{
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: capitalize;
+    
+}
+#banner .banner-contian h1{
+    font-size: 80px;
+    font-family: "Abril Fatface", serif;
+    text-transform: uppercase;
+}
+#banner .banner-contian p{
+    font-size: 32px;
+    font-weight: 400px;
+     color: #8484bf;
+     text-transform: capitalize;
+     letter-spacing: 10px;
+     margin-top: 20px;
+     margin-bottom: 30px;
+} 
+#banner .banner-contian span{
+    font-size: 14px;
+    line-height: 24px;
+    color: #444444;
+}
+#banner .banner-contian .btn-group a{
+      padding: 15px 20px;
+      background-color: #8484bf;
+      color: #fff;
+      font-size: 20px;
+      border-radius: 5px;
+      margin-right: 20px;
+      margin-top: 32px;
+
+
+
+}
+#banner .banner-contian .btn-group {
+    /* background-color: red; */
+      display:flex; 
+      align-items: center;
+}
+#banner .banner-contian .btn-group img{
+    margin-top: 32px;
+    border-radius: 22px;
+    background: #e0e0e0;
+    box-shadow:  16px 16px 32px #a8a8a8,
+             -16px -16px 32px #ffffff;
+}
+
+/* banner end */
+
+/* about start */
+ #about .about-contain{
+    width: 570px;
+ }
+ #about{
+    padding-top: 100px;
+    padding-bottom: 115px;
+ }
+
+ #about .about-contain h5{
+    font-size: 14px;
+    font-weight: 300px;
+    color: #385264;
+ }
+
+ #about .about-contain h1{
+    font-size: 32px;
+    font-weight: 400px;
+    font-family: "Abril Fatface", serif;
+    color: #0f2f44;
+    text-transform: capitalize;
+    
+
+
+ }
+ 
+ #about .about-contain p{
+    padding: 30px 0;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #0f2f44;
+    line-height: 24px;
+   
+
+ } 
+ #about .about-contain ul{
+    margin-left: 30px;
+   
+ }
+ #about .about-contain ul li{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #0f2f44;
+    font-family: "Open Sans", sans-serif;
+    line-height: 44px;
+ }
+ #about .btn button{
+    margin-top: 30px;
+    padding: 15px 20px;
+    background-color:#ffc712;
+    color: #0f2f44;
+    font-size: 20px;
+    font-weight: 700px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 5px;
+    font-family: "Ubuntu", sans-serif;
+ }
+ #about .btn .second-btn{
+    background-color: #fff;
+    box-shadow: 10px 10px 30px #ccc;
+    margin-left: 20px;
+    border-radius: 5px;
+    transition: 1s;
+ }
+ #about .btn .second-btn:hover{
+    background-color: #ffc712;
+ }
